@@ -632,27 +632,6 @@ footer {
 /*--  //call us --*/
 
 
-/*--  stats --*/
-.stats {
-    background: url(../images/bg1.jpg) no-repeat center;
-    background-size: cover;
-    background: #292929;
-}
-.stats h4 {
-    font-size: 60px;
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.stats p{
-}
-.stats span.fa{
-    font-size: 30px;
-    color: #ead032;
-}
-/*--  //stats --*/
-
-
 /*-- move top --*/
 a.move-top span {
     color: #666;
