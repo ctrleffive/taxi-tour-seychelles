@@ -54,7 +54,7 @@
     <section class="about py-sm-5 py-4" id="about">
       <div class="container py-lg-5">
         <div class="row about-grids">
-          <div class="col-lg-5">
+          <div class="col-lg-8">
             <h6 class="mt-4">Our tours, the greatest service</h6>
             <h4 class="mt-3">Unforgetable experience.</h4>
             <p class="mt-sm-4 mt-3">
@@ -70,19 +70,19 @@
               <form action="#" method="post">
                 <h5 class="mb-3">Book A Cab</h5>
                 <div class="form-style-agile">
-                  <form action="/">
+                  <form name="booking" method="POST" netlify-honeypot="botne-pattikan" data-netlify="true">
+                    <div class="hidden">
+                      <label>Don’t fill this out if you're human: <input name="botne-pattikan"></label>
+                    </div>
                     <input placeholder="Name" name="name" type="text" required="" />
                     <input placeholder="Phone Number" name="number" type="text" required="" />
-                    <input placeholder="Source(From)" type="text" required="" />
-                    <input placeholder="Destination(To)" type="text" required="" />
+                    <input placeholder="Source(From)" name="source" type="text" required="" />
+                    <input placeholder="Destination(To)" name="destination" type="text" required="" />
                     <button class="book-btn btn" type="submit">Book Now</button>
                   </form>
                 </div>
               </form>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mt-4">
-            <img src="images/about.jpg" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -148,55 +148,13 @@
         </div>
       </div>
     </section>
-    <section class="tarrifs py-5" id="fleets">
-      <div class="container py-md-5">
-        <div class="row tarrifs-grid">
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="images/suzuki-vitara.png" alt="" class="w-100 img-fluid" />
-            <div class="tarrif-info">
-              <h4 class="my-3">Suzuki Vitara</h4>
-              <p class="para_vl">
-                Elegant and spacious jeep. Car seat and booster available.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <img src="images/hyundai-tucson.png" alt="" class="w-100 img-fluid" />
-            <div class="tarrif-info">
-              <h4 class="my-3">Hyundai Tucson</h4>
-              <p class="para_vl">
-                Elegant and spacious jeep. Car seat and booster available.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-5">
-            <img src="images/kia-sportage.png" alt="" class="w-100 img-fluid" />
-            <div class="tarrif-info">
-              <h4 class="my-3">Kia Sportage</h4>
-              <p class="para_vl">
-                Elegant and spacious jeep. Car seat and booster available.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-5">
-            <img src="images/prado.png" alt="" class="w-100 img-fluid" />
-            <div class="tarrif-info">
-              <h4 class="my-3">Toyota Prado</h4>
-              <p class="para_vl">
-                Elegant and spacious jeep. For your VIP transfers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-    <section class="customer-call">
+    <section class="book-now pt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8 py-sm-5 py-4 mt-3">
-            <h4 class="mt-2">Book now via WhatsApp 24/7</h4>
+            <h1 class="mt-2">Book now via WhatsApp 24/7</h1>
             <p>Or Call Us Now</p>
-            <h2><span class="fa mr-1 fa-phone"></span> +248 2 528869</h2>
+            <h1><span class="fa mr-1 fa-phone"></span> +248 2 528869</h1>
             <p class="mt-4">
               You can also book via email while planning your holiday in Seychelles <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a>.
               Book in advance the pick up at the airport and a tour of the island. You will not found a better package and a better service.
@@ -208,16 +166,9 @@
         </div>
       </div>
     </section>
-    <section class="mobile-app-sec py-5" id="meetngreet">
+    <section class="customer-call py-5" id="meetngreet">
       <div class="container py-sm-3">
         <div class="row inner-sec-wthree-agileits">
-          <div class="col-lg-7 app-info text-left">
-            <h3 class="tittle mob pb-sm-4">Meet &amp; Greet</h3>
-            <p class="para_vl">
-              Transfer from Airport to your Hotel / Jetty. Meet and greet by the driver that are well dressed well behaved, polite, helpful and display professionalism.
-              Upon arrival you’ll find the driver waiting for you holding a visible board with your name - easy to see once you exit the arrival lounge.
-            </p>
-          </div>
           <div class="col-lg-7 app-info text-left">
             <h3 class="tittle mob pb-sm-4">Meet &amp; Greet</h3>
             <p class="para_vl">
@@ -242,6 +193,10 @@
             <p><span class="fa mr-1 fa-map-marker"></span> Seychelles</p>
             <p><span class="fa mr-1 fa-envelope"></span> <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a></p>
             <p><span class="fa mr-1 fa-phone"></span> +248 2 528869</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_right">
+            <h3 class="mb-sm-4 mb-3">We Accept</h3>
+            <p><img class="we-accept" src="images/we-accept.jpg" alt="We accept."></p>
           </div>
         </div>
         <div class="move-to-top text-center mt-3">
