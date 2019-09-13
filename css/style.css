@@ -831,3 +831,12 @@ a.move-top span {
   display: none;
   opacity: 0;
 }
+.testimonials {
+  background: #fafafa;
+}
+.eatr-content-component + div {
+  display: none;
+}
+.no-link-high, .no-link-high:hover {
+  all: inherit;
+}
