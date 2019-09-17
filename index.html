@@ -61,7 +61,7 @@
     <section class="about py-sm-5 py-4" id="about">
       <div class="container py-lg-5">
         <div class="row about-grids">
-          <div class="col-lg-8">
+          <div class="col-lg-5">
             <h6 class="mt-4">Our tours, the greatest service</h6>
             <h4 class="mt-3">Unforgetable experience.</h4>
             <p class="mt-sm-4 mt-3">
@@ -72,7 +72,7 @@
               You will arrive early and you dont know what to do while waiting your check in at the Hotel? Why not a quick tour?
             </p>
           </div>
-          <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+          <div class="col-lg-7 col-md-6 mt-lg-0 mt-4">
             <div class="padding">
               <form action="#" method="post">
                 <h5 class="mb-3">Book A Cab</h5>
@@ -81,10 +81,43 @@
                     <div class="hidden">
                       <label>Don’t fill this out if you're human: <input name="botne-pattikan"></label>
                     </div>
-                    <input placeholder="Name" name="name" type="text" required="" />
-                    <input placeholder="Phone Number" name="number" type="text" required="" />
-                    <input placeholder="Source(From)" name="source" type="text" required="" />
-                    <input placeholder="Destination(To)" name="destination" type="text" required="" />
+                    <div class="row">
+                      <div class="col">
+                        <input placeholder="Name" name="name" type="text" required="" />
+                        <input placeholder="Surname" name="surname" type="text" />
+                        <input placeholder="Phone Number (with country code)" name="phone" type="text" required="" />
+                        <input placeholder="Email Id" name="email" type="email" required="" />
+                        <input placeholder="Source (From)" name="source" type="text" required="" />
+                        <input placeholder="Destination (To)" name="destination" type="text" required="" />
+                      </div>
+                      <div class="col">
+                        <div class="row">
+                          <div class="col">
+                            <input placeholder="Date" name="date" type="text" required="" />
+                          </div>
+                          <div class="col">
+                            <input placeholder="Time" name="time" type="text" required="" />
+                          </div>
+                        </div>
+                        <div class="bg-light mb-3 no-gutters row">
+                          <div class="col">
+                            <label for="oneway" class="m-0 pl-3 p-2">One Way</label><input id="oneway" value="oneway" type="radio" name="type">
+                          </div>
+                          <div class="col">
+                            <label for="return" class="m-0 pl-3 p-2">Return</label><input id="return" value="return" type="radio" name="type">
+                          </div>
+                        </div>
+                        <div class="bg-light mb-3 no-gutters row">
+                          <div class="col">
+                            <label for="tour" class="m-0 pl-3 p-2">Island Tour</label><input id="tour" value="tour" type="radio" name="plan">
+                          </div>
+                          <div class="col">
+                            <label for="package" class="m-0 pl-3 p-2">Package</label><input id="package" value="package" type="radio" name="plan">
+                          </div>
+                        </div>
+                        <textarea name="details" rows="7" placeholder="Other details (like flight details, airline, flight number, etc.)"></textarea>
+                      </div>
+                    </div>
                     <button class="book-btn btn" type="submit">Book Now</button>
                   </form>
                 </div>
@@ -167,7 +200,7 @@
           <div class="col-md-8 py-sm-5 py-4 mt-3">
             <h1 class="mt-2">Book now via WhatsApp 24/7</h1>
             <p>Or Call Us Now</p>
-            <h1><a href="tel:+2482528869" class="no-link-high"><span class="fa mr-1 fa-phone"></span> +248 2 528869</a></h1>
+            <h1><a href="https://wa.me/2482528869" class="no-link-high"><span class="fa mr-1 fa-phone"></span> +248 2 528869</a></h1>
             <p class="mt-4">
               You can also book via email while planning your holiday in Seychelles <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a>.
               Book in advance the pick up at the airport and a tour of the island. You will not found a better package and a better service.
