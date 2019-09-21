@@ -115,7 +115,15 @@
                             <label for="package" class="m-0 pl-3 p-2">Package</label><input id="package" value="package" type="radio" name="plan">
                           </div>
                         </div>
-                        <textarea name="details" rows="7" placeholder="Other details (like flight details, airline, flight number, etc.)"></textarea>
+                        <div class="row mb-2">
+                          <div class="col">
+                            <input placeholder="Adults Count" name="adults" type="number" min="1" required="" />
+                          </div>
+                          <div class="col">
+                            <input placeholder="Children" name="children" type="number" min="0" required="" />
+                          </div>
+                        </div>
+                        <textarea name="details" rows="4" placeholder="Other details (like flight details, airline, flight number, etc.)"></textarea>
                       </div>
                     </div>
                     <button class="book-btn btn" type="submit">Book Now</button>
