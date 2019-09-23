@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <title>Taxi Tour Seychelles</title>
     <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <meta
-      name="keywords"
-      content="Taxi Tour Seychelles"
-    />
-		<script src="scripts/main.js"></script>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="//fonts.googleapis.com/css?family=Rosario:400,400i,700,700i" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Taxi Tour Seychelles"/>
+    <script src="scripts/main.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="//fonts.googleapis.com/css?family=Rosario:400,400i,700,700i" rel="stylesheet"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147953107-1"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-147953107-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
       gtag('config', 'UA-147953107-1');
     </script>
   </head>
+
   <body>
     <header>
       <div class="container">
         <nav class="py-sm-4 py-3 d-lg-flex">
           <div id="logo">
             <h1>
-              <a href="/"><span class="fa fa-car"></span> Taxi Tour Seychelles</a>
+              <a href="/">
+                <span class="fa fa-car"></span>
+                Taxi Tour Seychelles</a>
             </h1>
           </div>
-          <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
-          <input type="checkbox" id="drop" />
+          <label for="drop" class="toggle">
+            <span class="fa fa-bars"></span></label>
+          <input type="checkbox" id="drop"/>
           <ul class="menu mt-md-2 ml-auto">
-            <li class="mr-lg-4 mr-2 active"><a href="/">Home</a></li>
-            <li class="mr-lg-4 mr-2"><a href="#about">About Us</a></li>
-            <li class="mr-lg-4 mr-2"><a href="#services">Services</a></li>
-            <li class="mr-lg-4 mr-2"><a href="#meetngreet">Meet &amp; Greet</a></li>
+            <li class="mr-lg-4 mr-2 active">
+              <a href="/">Home</a>
+            </li>
+            <li class="mr-lg-4 mr-2">
+              <a href="#about">About Us</a>
+            </li>
+            <li class="mr-lg-4 mr-2">
+              <a href="#services">Services</a>
+            </li>
+            <li class="mr-lg-4 mr-2">
+              <a href="#meetngreet">Meet &amp; Greet</a>
+            </li>
           </ul>
         </nav>
       </div>
-		</header>
+    </header>
     <section class="banner w3pvt-banner" id="home">
       <div class="container">
         <div class="banner-text">
@@ -50,9 +63,11 @@
             <div class="w3pvt-logo">
               <h2>Book Your Cab Now</h2>
               <div></div>
-              <h3><a href="tel:+2482528869" class="no-link-high">+248 2 528869</a></h3>
+              <h3>
+                <a href="tel:+2482528869" class="no-link-high">+248 2 528869</a>
+              </h3>
               <p class="mt-3">Always Available, Best Cabs, Safe Journey.</p>
-              <img src="images/cab.png" alt="" class="img-fluid mt-md-5" />
+              <img src="images/cab.png" alt="" class="img-fluid mt-md-5"/>
             </div>
           </div>
         </div>
@@ -65,8 +80,7 @@
             <h6 class="mt-4">Our tours, the greatest service</h6>
             <h4 class="mt-3">Unforgetable experience.</h4>
             <p class="mt-sm-4 mt-3">
-              For the best experience while visiting the Islands in Seychelles. Taxi transfers, Tour of the Island and if you need Music Entertainment during your stay because you are organizing a special event, we are available to assist you.
-              With Taxi Tour Seychelles you can customize your island tour, decide when to stop, and where to stop. Our knowledgeable and local drivers  will provide you with an unforgettable and enjoyable guided tour. (Packages available)
+              For the best experience while visiting the Islands in Seychelles. Taxi transfers, Tour of the Island and if you need Music Entertainment during your stay because you are organizing a special event, we are available to assist you. With Taxi Tour Seychelles you can customize your island tour, decide when to stop, and where to stop. Our knowledgeable and local drivers will provide you with an unforgettable and enjoyable guided tour. (Packages available)
             </p>
             <p class="mt-sm-4 mt-3">
               You will arrive early and you dont know what to do while waiting your check in at the Hotel? Why not a quick tour?
@@ -79,24 +93,25 @@
                 <div class="form-style-agile">
                   <form name="booking" method="POST" netlify-honeypot="botne-pattikan" data-netlify="true">
                     <div class="hidden">
-                      <label>Don’t fill this out if you're human: <input name="botne-pattikan"></label>
+                      <label>Don’t fill this out if you're human:
+                        <input name="botne-pattikan"></label>
                     </div>
                     <div class="row">
                       <div class="col">
-                        <input placeholder="Name" name="name" type="text" required="" />
-                        <input placeholder="Surname" name="surname" type="text" />
-                        <input placeholder="Phone Number (with country code)" name="phone" type="text" required="" />
-                        <input placeholder="Email Id" name="email" type="email" required="" />
-                        <input placeholder="Source (From)" name="source" type="text" required="" />
-                        <input placeholder="Destination (To)" name="destination" type="text" required="" />
+                        <input placeholder="Name" name="name" type="text" required=""/>
+                        <input placeholder="Surname" name="surname" type="text"/>
+                        <input placeholder="Phone Number (with country code)" name="phone" type="text" required=""/>
+                        <input placeholder="Email Id" name="email" type="email" required=""/>
+                        <input placeholder="Source (From)" name="source" type="text" required=""/>
+                        <input placeholder="Destination (To)" name="destination" type="text" required=""/>
                       </div>
                       <div class="col">
                         <div class="row">
                           <div class="col">
-                            <input placeholder="Date" name="date" type="text" required="" />
+                            <input placeholder="Date" name="date" type="text" required=""/>
                           </div>
                           <div class="col">
-                            <input placeholder="Time" name="time" type="text" required="" />
+                            <input placeholder="Time" name="time" type="text" required=""/>
                           </div>
                         </div>
                         <div class="bg-light mb-3 no-gutters row">
@@ -117,10 +132,10 @@
                         </div>
                         <div class="row mb-2">
                           <div class="col">
-                            <input placeholder="Adults Count" name="adults" type="number" min="1" required="" />
+                            <input placeholder="Adults Count" name="adults" type="number" min="1" required=""/>
                           </div>
                           <div class="col">
-                            <input placeholder="Children" name="children" type="number" min="0" required="" />
+                            <input placeholder="Children" name="children" type="number" min="0" required=""/>
                           </div>
                         </div>
                         <textarea name="details" rows="4" placeholder="Other details (like flight details, airline, flight number, etc.)"></textarea>
@@ -142,7 +157,7 @@
             <img src="images/tripadvisor.png" width="200" alt="">
           </a>
         </div>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer="defer"></script>
         <div class="elfsight-app-1563e61a-f2df-4faf-b3b1-cac0dc3b3fb0"></div>
       </div>
     </section>
@@ -201,7 +216,7 @@
             </div>
             <h4 class="mt-3">Tour Services</h4>
             <p class="mt-3">
-              Our tours, the greatest service, unforgettable experience. Book a tour of the island with us, and you will enjoy the beauty of our beaches, the spectacular views, the rare flora and fauna, the traditional places and why not the traditional food. We will show you and helping you Discovering  the uniqueness of the Island.
+              Our tours, the greatest service, unforgettable experience. Book a tour of the island with us, and you will enjoy the beauty of our beaches, the spectacular views, the rare flora and fauna, the traditional places and why not the traditional food. We will show you and helping you Discovering the uniqueness of the Island.
             </p>
           </div>
         </div>
@@ -213,14 +228,18 @@
           <div class="col-md-8 py-sm-5 py-4 mt-3">
             <h1 class="mt-2">Book now via WhatsApp 24/7</h1>
             <p>Or Call Us Now</p>
-            <h1><a href="https://wa.me/2482528869" class="no-link-high"><span class="fa mr-1 fa-phone"></span> +248 2 528869</a></h1>
+            <h1>
+              <a href="https://wa.me/2482528869" class="no-link-high">
+                <span class="fa mr-1 fa-phone"></span>
+                +248 2 528869</a>
+            </h1>
             <p class="mt-4">
-              You can also book via email while planning your holiday in Seychelles <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a>.
-              Book in advance the pick up at the airport and a tour of the island. You will not found a better package and a better service.
+              You can also book via email while planning your holiday in Seychelles
+              <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a>. Book in advance the pick up at the airport and a tour of the island. You will not found a better package and a better service.
             </p>
           </div>
           <div class="col-lg-3 offset-lg-1 col-md-4 col-sm-6 col-8 pt-md-5 mt-lg-3">
-            <img src="images/agent-18762.png" alt="" />
+            <img src="images/agent-18762.png" alt=""/>
           </div>
         </div>
       </div>
@@ -231,8 +250,7 @@
           <div class="col-lg-7 app-info text-left">
             <h3 class="tittle mob pb-sm-4">Meet &amp; Greet</h3>
             <p class="para_vl">
-              Transfer from Airport to your Hotel / Jetty. Meet and greet by the driver that are well dressed well behaved, polite, helpful and display professionalism.
-              Upon arrival you’ll find the driver waiting for you holding a visible board with your name - easy to see once you exit the arrival lounge.
+              Transfer from Airport to your Hotel / Jetty. Meet and greet by the driver that are well dressed well behaved, polite, helpful and display professionalism. Upon arrival you’ll find the driver waiting for you holding a visible board with your name - easy to see once you exit the arrival lounge.
             </p>
           </div>
         </div>
@@ -244,14 +262,23 @@
           <div class="col-lg-5 footer_left">
             <h3 class="mb-sm-4 mb-3">About Our Taxi Company</h3>
             <p>
-              Taxi Tour Seychelles is a local taxi  company that serves Mahe Island, the main Island in the Seychelles archipelago. We provide fast and friendly taxi service 24/7 throughout the island of Mahe . Our corporate mission is to give our island community and visitors the best and demand-responsive taxi service. Please browse our website to learn more about our company and our taxi services. 
+              Taxi Tour Seychelles is a local taxi company that serves Mahe Island, the main Island in the Seychelles archipelago. We provide fast and friendly taxi service 24/7 throughout the island of Mahe . Our corporate mission is to give our island community and visitors the best and demand-responsive taxi service. Please browse our website to learn more about our company and our taxi services.
             </p>
           </div>
           <div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_right">
             <h3 class="mb-sm-4 mb-3">Contact Us</h3>
-            <p><span class="fa mr-1 fa-map-marker"></span> Seychelles</p>
-            <p><span class="fa mr-1 fa-envelope"></span> <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a></p>
-            <p><a href="tel:+2482528869" class="no-link-high"><span class="fa mr-1 fa-phone"></span> +248 2 528869</a></p>
+            <p>
+              <span class="fa mr-1 fa-map-marker"></span>
+              Seychelles</p>
+            <p>
+              <span class="fa mr-1 fa-envelope"></span>
+              <a href="mailto:crazzmusic@hotmail.com">crazzmusic@hotmail.com</a>
+            </p>
+            <p>
+              <a href="tel:+2482528869" class="no-link-high">
+                <span class="fa mr-1 fa-phone"></span>
+                +248 2 528869</a>
+            </p>
           </div>
           <div class="col-lg-3 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_right">
             <h3 class="mb-sm-4 mb-3">We Accept</h3>
@@ -259,7 +286,8 @@
           </div>
         </div>
         <div class="move-to-top text-center mt-3">
-          <a href="#home" class="move-top"><span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
+          <a href="#home" class="move-top">
+            <span class="fa fa-angle-double-up" aria-hidden="true"></span></a>
         </div>
         <div class="copyright text-center mt-3">
           <p>&copy; 2019 Taxi Tour Seychelles. All Rights Reserved</p>
@@ -267,4 +295,5 @@
       </div>
     </footer>
   </body>
+
 </html>
