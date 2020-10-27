@@ -1,3 +1,9 @@
+/*
+ * @Author: Chandu J S
+ * @Date:   2020-10-27 23:08:38
+ * @Last Modified by:   Chandu J S
+ * @Last Modified time: 2020-10-27 23:14:14
+ */
 /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -175,7 +181,7 @@ nav ul ul li a {
   display: block;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
 * We move the 2nd and 3rd etc tier dropdowns to the left
 * by the amount of the width of the first tier.
 */
@@ -906,4 +912,31 @@ input[type="radio"] {
 
 .eatr-reviews-skeleton-container > a {
     display: none !important;
+}
+.advisory {
+  background-color: #ead032;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 1rem 0;
+}
+.advisory-link {
+  margin-left: 1rem;
+  color: inherit !important;
+  text-decoration: underline;
+}
+.sscta-certified {
+  position:relative;
+}
+.sscta-certified:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -8rem;
+  background-image: url(/images/sscta-certified.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  z-index: 2;
 }
